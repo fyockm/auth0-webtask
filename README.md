@@ -1,8 +1,17 @@
 # Slack Notification webtask
 
 The `slacker` webtask implements inbound slack notifications for a few specific events that occur in another application. This webtask actually mirrors functionality I recently added to my current application using AWS SNS and Lambda services, but proved much easier to accomplish with a webtask.
-The possible events are: create, update, sync, or complete.
-The models for which these actions could occur are: project, interview, or transcript.
+
+The possible events are:
+- `create`
+- `update`
+- `sync`
+- `complete`
+
+The models for which these actions could occur are:
+- `project`
+- `interview`
+- `transcript`
 
 ## Examples
 
